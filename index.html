@@ -2,88 +2,382 @@
 <html lang="en" data-theme="light">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hockey's</title>
-    <link rel="shortcut icon" href="./logo/hockeylogo.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hockey's</title>
+  <link rel="shortcut icon" href="./logo/hockeylogo.png" type="image/x-icon">
 
-    <!-- google_font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+  <!-- google_font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 
-    <!-- tailwind_and_daisy_cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font_awesome_kit -->
+  <script src="https://kit.fontawesome.com/7a1a92cae3.js" crossorigin="anonymous"></script>
 
-    <!-- tailwind_custom_color -->
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
+  <!-- tailwind_and_daisy_cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- tailwind_custom_color -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
           }
         }
-      </script>
+      }
+    }
+  </script>
 
-    <!-- custom_style -->
-    <style>
-        .font-manrope{
-            font-family: 'Manrope', sans-serif;
-        }
-    </style>
+  <!-- custom_style -->
+  <style>
+    .font-manrope {
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
 </head>
 
 <body class="font-manrope">
-    <!-- header_start -->
-    <header class="container mx-auto mt-10">
-        <!-- nav_start -->
-        <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li class="text-[#FF4240] font-bold"><a>Home</a></li>
-                      <li class="text-[#424247]"><a>About</a></li>
-                      <li class="text-[#424247]"><a>Pages</a></li>
-                      <li class="text-[#424247]"><a>Blog</a></li>
-                      <li class="text-[#424247]"><a>Contact</a></li>
-                    </ul>
-                  </div>
-                  <a class="btn btn-ghost text-3xl lg:text-4xl -ml-5 lg:-ml-0 font-extrabold text-[#131318] ">Hockey<span class="text-[#FF4240] text-4xl font-extrabold">'</span>s</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li class="text-[#FF4240] font-bold"><a>Home</a></li>
-                    <li class="text-[#424247]"><a>About</a></li>
-                    <li class="text-[#424247]"><a>Pages</a></li>
-                    <li class="text-[#424247]"><a>Blog</a></li>
-                    <li class="text-[#424247]"><a>Contact</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                  <a class="btn text-white text-xl font-bold bg-[#FF4240]">Get Ticket</a>
-                </div>
-              </div>
-        </nav>
-        <!-- nav_end -->
-    </header>
-    <!-- header_end -->
+  <!-- header_start -->
+  <header class="container mx-auto mt-10">
+    <!-- nav_start -->
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li class="text-[#FF4240] font-bold"><a>Home</a></li>
+              <li class="text-[#424247]"><a>About</a></li>
+              <li class="text-[#424247]"><a>Pages</a></li>
+              <li class="text-[#424247]"><a>Blog</a></li>
+              <li class="text-[#424247]"><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-3xl lg:text-4xl -ml-5 lg:-ml-0 font-extrabold text-[#131318] ">Hockey<span
+              class="text-[#FF4240] text-4xl font-extrabold">'</span>s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li class="text-[#FF4240] font-bold"><a>Home</a></li>
+            <li class="text-[#424247]"><a>About</a></li>
+            <li class="text-[#424247]"><a>Pages</a></li>
+            <li class="text-[#424247]"><a>Blog</a></li>
+            <li class="text-[#424247]"><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn text-white text-xl font-bold bg-[#FF4240]">Get Ticket</a>
+        </div>
+      </div>
+    </nav>
+    <!-- nav_end -->
 
-    <!-- main_start -->
-    <main></main>
-    <!-- main_end -->
+    <!-- header_banner_start -->
+    <div class="mt-12 p-4 lg:p-0">
+      <div class="carousel w-full">
+        <!-- banner_image_1 -->
+        <div id="slide1" class="carousel-item flex flex-col lg:flex-row lg:relative w-full object-contain">
+          <img src="./banner/banner1.png" class=" lg:w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5       right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle  text-white bg-[#131318] border-0">❮</a>
+            <a href="#slide2" class="btn btn-circle text-white bg-[#131318] border-0">❯</a>
+          </div>
 
-    <!-- footer_start -->
-    <footer></footer>
-    <!-- footer_end -->
+          <div class="bg-[#131318] max-w-[502px] rounded-2xl p-4 lg:p-8 lg:absolute lg:right-8 lg:bottom-8 mt-5">
+            <h3 class="text-white text-2xl font font-extrabold">Meet all the heroes from the field</h3>
+            <p class="text-[#FFFFFF99] font-medium leading-6 mt-4">Step into the spotlight, where extraordinary journey
+              and indomitable spirit have rightfully earned the title of a hero.</p>
+          </div>
+        </div>
+
+        <!-- banner_image_2 -->
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="./banner/banner2.jpg" class="w-full rounded-lg lg:rounded-2xl" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle text-white bg-[#131318] border-0">❮</a>
+            <a href="#slide3" class="btn btn-circle  text-white bg-[#131318] border-0">❯</a>
+          </div>
+        </div>
+
+        <!-- banner_image_3 -->
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="./banner/banner3.jpg" class="w-full rounded-lg lg:rounded-2xl" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle text-white bg-[#131318] border-0">❮</a>
+            <a href="#slide1" class="btn btn-circle text-white bg-[#131318] border-0">❯</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header_banner_end -->
+  </header>
+  <!-- header_end -->
+
+  <!-- main_start -->
+  <main class="container mx-auto mt-24 p-4 lg:p-0">
+    <!-- professional_hockeys_club_start -->
+    <div class="text-center">
+      <h2 class="text-[#131318] text-3xl lg:text-4xl font-extrabold">Professional Hockeys Club</h2>
+      <p class="mt-5 text-[#13131899] font-medium leading-6 max-w-[600px] mx-auto">A professional hockey club stands as
+        a beacon of excitement and excellence in the world of sports.Founded with a passion for the game.</p>
+
+      <div class="mt-16 grid gap-8 grid-cols-1 lg:grid-cols-4">
+        <!-- card_1 -->
+        <div>
+          <div class="radial-progress text-primary text-[#FF4240]" style="--value:87;" role="progressbar"><span
+              class="text-[#131318] text-2xl font-extrabold">87%</span>
+          </div>
+          <h3 class="text-[#131318] text-xl font-semibold mt-4">Prayer Facility</h3>
+          <p class="text-[#13131899] mt-3 leading-6 max-w-[250px] mx-auto">A prayer facility is a space designed for individuals to engage in practices and prayer.</p>
+        </div>
+
+        <!-- card_2 -->
+        <div>
+          <div class="radial-progress text-primary text-[#49D293]" style="--value:95;" role="progressbar"><span
+              class="text-[#131318] text-2xl font-extrabold">95%</span>
+          </div>
+          <h3 class="text-[#131318] text-xl font-semibold mt-4">Experienced Coach</h3>
+          <p class="text-[#13131899] mt-3 leading-6 max-w-[250px] mx-auto">An experienced coach is a seasoned professional in the realm of mentorship.</p>
+        </div>
+
+        <!-- card_3 -->
+        <div>
+          <div class="radial-progress text-primary text-[#FFB546]" style="--value:90;" role="progressbar"><span
+              class="text-[#131318] text-2xl font-extrabold">90%</span>
+          </div>
+          <h3 class="text-[#131318] text-xl font-semibold mt-4">Senior Player</h3>
+          <p class="text-[#13131899] mt-3 leading-6 max-w-[250px] mx-auto">
+            A senior player in the realm of sports is a seasoned and respected individual.</p>
+        </div>
+
+        <!-- card_4 -->
+        <div>
+          <div class="radial-progress text-primary text-[#4C8DF1]" style="--value:80;" role="progressbar"><span
+              class="text-[#131318] text-2xl font-extrabold">80%</span>
+          </div>
+          <h3 class="text-[#131318] text-xl font-semibold mt-4">Training Ground</h3>
+          <p class="text-[#13131899] max-w-[250px] mx-auto mt-3 leading-6">A training ground is a dedicated facility designed for athletes and teams to hone their skills.</p>
+        </div>
+      </div>
+    </div>
+    <!-- professional_hockeys_club_end -->
+
+    <!-- program_sections_start -->
+    <div class="mt-24 text-center">
+      <h3 class="text-[#131318] text-3xl lg:text-4xl font-extrabold">Program Sections</h3>
+      <p class="max-w-[607px] mx-auto mt-5">Program sections refer to distinct and organized segments within a larger program or event,each serving a specific purpose or addressing a particular aspect.</p>
+
+      <div class="mt-16 grid gap-6 grid-cols-1 lg:grid-cols-2">
+        <!-- card_1 -->
+        <div class="relative flex-1">
+          <div>
+            <img src="./images/2.png" alt="" class="w-full relative z-0">
+
+            <div class="bg-[#13131880] rounded-2xl absolute top-0 left-0 right-0 bottom-0 z-20"></div>
+          </div>
+          <div class="text-start absolute left-1 bottom-1 md:left-4 md:bottom-4 lg:left-8 lg:bottom-8 z-30">
+            <h2 class="text-white text-3xl font-extrabold">Junior Program</h2>
+            <p class="text-white font-medium leading-6 max-w-[495px] mt-2 lg:mt-5">A junior program typically refers to a specialized initiative or curriculum designed for young participants</p>
+            <button class="btn text-white font-bold text-xl bg-[#FF4240] border-0 m-2 lg:mt-6">Register Now!</button>
+          </div>
+        </div>
+
+        <!-- card_2 -->
+        <div class="relative flex-1">
+          <div>
+            <img src="./images/3.png" alt="" class="w-full relative z-0">
+
+            <div class="bg-[#13131880] rounded-2xl absolute top-0 left-0 right-0 bottom-0 z-20"></div>
+          </div>
+          <div class="text-start absolute left-1 bottom-1 md:left-4 md:bottom-4 lg:left-8 lg:bottom-8 z-30">
+            <h2 class="text-white text-3xl font-extrabold">Teenager Program</h2>
+            <p class="text-white font-medium leading-6 max-w-[495px] mt-1 lg:mt-5">A teenager program is a targeted initiative or set of activities designed to address the unique needs and interests of adolescents</p>
+            <button class="btn text-white font-bold text-xl bg-[#FF4240] border-0 m-1 lg:mt-6">Register Now!</button>
+          </div>
+        </div>
+
+        <!-- card_3 -->
+        <div class="relative lg:col-span-2">
+          <div>
+            <img src="./images/4.png" alt="" class="w-full relative -z-0">
+
+            <div class="bg-[#13131880] rounded-2xl absolute top-0 left-0 right-0 bottom-0 z-20"></div>
+          </div>
+          <div class="text-start absolute left-1 bottom-1 md:left-4 md:bottom-4 lg:left-8 lg:bottom-8 z-30">
+            <h2 class="text-white text-3xl font-extrabold">Professional Program</h2>
+            <p class="text-white font-medium leading-6 max-w-[495px] mt-1 lg:mt-5">A professional program is a structured and specialized initiative designed to enhance the knowledge, skills, and expertise.</p>
+            <button class="btn text-white font-bold text-xl bg-[#FF4240] border-0 
+            m-1 lg:mt-6">Register Now!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- program_sections_end -->
+
+    <!-- our_new_products_start -->
+    <div class="text-center mt-24">
+      <h1 class="text-[#131318] text-3xl lg:text-4xl font-extrabold">Our New Products</h1>
+      <p class="text-[#13131899] font-medium leading-6 max-w-[600px] mx-auto mt-5">We're thrilled to unveil our latest additions to the product lineup, each crafted with precision and innovation to elevate</p>
+      <div class="mt-12 grid gap-6 grid-cols-1 lg:grid-cols-2">
+        <!-- card_1 -->
+        <div class="flex flex-col lg:flex-row gap-4 text-start border border-[#1313181A] rounded-xl p-6">
+          <div>
+            <img src="./images/5.png" alt="" class="w-full object-contain">
+          </div>
+  
+          <div>
+            <div class="flex gap-4">
+              <p class="text-[#13131880]"><i class="fa-solid fa-star mr-2" style="color: #F99808;"></i>5.0</p>
+              <p class="text-[#13131880]"><i class="fa-regular fa-eye mr-2" style="color: #13131880;"></i>20</p>
+              <p class="text-[#13131880]"><i class="fa-regular fa-heart mr-2" style="color: #13131880;"></i>200</p>
+            </div>
+  
+            <h2 class="text-[#131318] text-xl font-extrabold mt-2">World Cup Flags Football</h2>
+            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the diverse array of nations.</p>
+  
+            <div class="flex flex-col lg:flex-row mt-3 lg:mt-2">
+              <h3 class="text-[#FF4240] text-lg font-extrabold mr-5">Price - $22.00</h3>
+              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2" style="color: #89898B;"></i>Delivery Fee : Free</p>
+            </div>
+          </div>
+        </div>
+
+
+       <!-- card_2 -->
+       <div class="flex flex-col lg:flex-row gap-4 text-start border border-[#1313181A] rounded-xl p-6">
+        <div>
+          <img src="./images/6.png" alt="" class="w-full object-contain">
+        </div>
+
+        <div>
+          <div class="flex gap-4">
+            <p class="text-[#13131880]"><i class="fa-solid fa-star mr-2" style="color: #F99808;"></i>5.0</p>
+            <p class="text-[#13131880]"><i class="fa-regular fa-eye mr-2" style="color: #13131880;"></i>20</p>
+            <p class="text-[#13131880]"><i class="fa-regular fa-heart mr-2" style="color: #13131880;"></i>200</p>
+          </div>
+
+          <h2 class="text-[#131318] text-xl font-extrabold mt-2">World Cup Flags Football</h2>
+          <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the diverse array of nations.</p>
+
+          <div class="flex flex-col lg:flex-row mt-3 lg:mt-2">
+            <h3 class="text-[#FF4240] text-lg font-extrabold mr-5">Price - $22.00</h3>
+            <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2" style="color: #89898B;"></i>Delivery Fee : Free</p>
+          </div>
+        </div>
+      </div>
+
+
+        <!-- card_3 -->
+        <div class="flex flex-col lg:flex-row gap-4 text-start border border-[#1313181A] rounded-xl p-6">
+          <div>
+            <img src="./images/7.png" alt="" class="w-full object-contain">
+          </div>
+  
+          <div>
+            <div class="flex gap-4">
+              <p class="text-[#13131880]"><i class="fa-solid fa-star mr-2" style="color: #F99808;"></i>5.0</p>
+              <p class="text-[#13131880]"><i class="fa-regular fa-eye mr-2" style="color: #13131880;"></i>20</p>
+              <p class="text-[#13131880]"><i class="fa-regular fa-heart mr-2" style="color: #13131880;"></i>200</p>
+            </div>
+  
+            <h2 class="text-[#131318] text-xl font-extrabold mt-2">World Cup Flags Football</h2>
+            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the diverse array of nations.</p>
+  
+            <div class="flex flex-col lg:flex-row mt-3 lg:mt-2">
+              <h3 class="text-[#FF4240] text-lg font-extrabold mr-5">Price - $22.00</h3>
+              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2" style="color: #89898B;"></i>Delivery Fee : Free</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- card_4 -->
+        <div class="flex flex-col lg:flex-row gap-4 text-start border border-[#1313181A] rounded-xl p-6">
+          <div>
+            <img src="./images/8.png" alt="" class="w-full object-contain">
+          </div>
+  
+          <div>
+            <div class="flex gap-4">
+              <p class="text-[#13131880]"><i class="fa-solid fa-star mr-2" style="color: #F99808;"></i>5.0</p>
+              <p class="text-[#13131880]"><i class="fa-regular fa-eye mr-2" style="color: #13131880;"></i>20</p>
+              <p class="text-[#13131880]"><i class="fa-regular fa-heart mr-2" style="color: #13131880;"></i>200</p>
+            </div>
+  
+            <h2 class="text-[#131318] text-xl font-extrabold mt-2">World Cup Flags Football</h2>
+            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the diverse array of nations.</p>
+  
+            <div class="flex flex-col lg:flex-row mt-3 lg:mt-2">
+              <h3 class="text-[#FF4240] text-lg font-extrabold mr-5">Price - $22.00</h3>
+              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2" style="color: #89898B;"></i>Delivery Fee : Free</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card_6 -->
+        <div class="flex flex-col lg:flex-row gap-4 text-start border border-[#1313181A] rounded-xl p-6">
+          <div>
+            <img src="./images/9.png" alt="" class="w-full object-contain">
+          </div>
+  
+          <div>
+            <div class="flex gap-4">
+              <p class="text-[#13131880]"><i class="fa-solid fa-star mr-2" style="color: #F99808;"></i>5.0</p>
+              <p class="text-[#13131880]"><i class="fa-regular fa-eye mr-2" style="color: #13131880;"></i>20</p>
+              <p class="text-[#13131880]"><i class="fa-regular fa-heart mr-2" style="color: #13131880;"></i>200</p>
+            </div>
+  
+            <h2 class="text-[#131318] text-xl font-extrabold mt-2">World Cup Flags Football</h2>
+            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the diverse array of nations.</p>
+  
+            <div class="flex flex-col lg:flex-row mt-3 lg:mt-2">
+              <h3 class="text-[#FF4240] text-lg font-extrabold mr-5">Price - $22.00</h3>
+              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2" style="color: #89898B;"></i>Delivery Fee : Free</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- card_6 -->
+        <div class="flex flex-col lg:flex-row gap-4 text-start border border-[#1313181A] rounded-xl p-6">
+          <div>
+            <img src="./images/10.png" alt="" class="w-full object-contain">
+          </div>
+  
+          <div>
+            <div class="flex gap-4">
+              <p class="text-[#13131880]"><i class="fa-solid fa-star mr-2" style="color: #F99808;"></i>5.0</p>
+              <p class="text-[#13131880]"><i class="fa-regular fa-eye mr-2" style="color: #13131880;"></i>20</p>
+              <p class="text-[#13131880]"><i class="fa-regular fa-heart mr-2" style="color: #13131880;"></i>200</p>
+            </div>
+  
+            <h2 class="text-[#131318] text-xl font-extrabold mt-2">World Cup Flags Football</h2>
+            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the diverse array of nations.</p>
+  
+            <div class="flex flex-col lg:flex-row mt-3 lg:mt-2">
+              <h3 class="text-[#FF4240] text-lg font-extrabold mr-5">Price - $22.00</h3>
+              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2" style="color: #89898B;"></i>Delivery Fee : Free</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- our_new_products_end -->
+  </main>
+  <!-- main_end -->
+
+  <!-- footer_start -->
+  <footer></footer>
+  <!-- footer_end -->
 </body>
 
 </html>
