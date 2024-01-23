@@ -76,47 +76,51 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="btn text-white text-xl font-bold bg-[#FF4240]">Get Ticket</a>
+          <i class="fa-solid fa-magnifying-glass mr-6 invisible lg:visible" style="color: #89898B;"></i><a
+            class="btn text-white text-xl font-bold bg-[#FF4240]">Get Ticket</a>
         </div>
       </div>
     </nav>
     <!-- nav_end -->
 
     <!-- header_banner_start -->
-    <div class="mt-12 p-4 lg:p-0">
-      <div class="carousel w-full">
-        <!-- banner_image_1 -->
-        <div id="slide1" class="carousel-item flex flex-col lg:flex-row lg:relative w-full object-contain">
-          <img src="./banner/banner1.png" class=" lg:w-full" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5       right-5 top-1/2">
-            <a href="#slide3" class="btn btn-circle  text-white bg-[#131318] border-0">❮</a>
-            <a href="#slide2" class="btn btn-circle text-white bg-[#131318] border-0">❯</a>
+    <div class="mt-12 p-4 lg:relative lg:p-0">
+      <div>
+        <div class="carousel lg:w-full">
+          <!-- banner_image_1 -->
+          <div id="slide1" class="carousel-item flex flex-col lg:flex-row lg:relative lg:w-full object object-center">
+            <img src="./banner/banner1.png" class=" lg:w-full" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5       right-5 top-1/2">
+              <a href="#slide3" class="btn btn-circle  text-white bg-[#131318] border-0">❮</a>
+              <a href="#slide2" class="btn btn-circle text-white bg-[#131318] border-0">❯</a>
+            </div>
+
           </div>
 
-          <div class="bg-[#131318] max-w-[502px] rounded-2xl p-4 lg:p-8 lg:absolute lg:right-8 lg:bottom-8 mt-5">
-            <h3 class="text-white text-2xl font font-extrabold">Meet all the heroes from the field</h3>
-            <p class="text-[#FFFFFF99] font-medium leading-6 mt-4">Step into the spotlight, where extraordinary journey
-              and indomitable spirit have rightfully earned the title of a hero.</p>
+          <!-- banner_image_2 -->
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="./banner/banner2.jpg" class="w-full rounded-lg lg:rounded-2xl" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide1" class="btn btn-circle text-white bg-[#131318] border-0">❮</a>
+              <a href="#slide3" class="btn btn-circle  text-white bg-[#131318] border-0">❯</a>
+            </div>
           </div>
-        </div>
 
-        <!-- banner_image_2 -->
-        <div id="slide2" class="carousel-item relative w-full">
-          <img src="./banner/banner2.jpg" class="w-full rounded-lg lg:rounded-2xl" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" class="btn btn-circle text-white bg-[#131318] border-0">❮</a>
-            <a href="#slide3" class="btn btn-circle  text-white bg-[#131318] border-0">❯</a>
+          <!-- banner_image_3 -->
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="./banner/banner3.jpg" class="w-full rounded-lg lg:rounded-2xl" />
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#slide2" class="btn btn-circle text-white bg-[#131318] border-0">❮</a>
+              <a href="#slide1" class="btn btn-circle text-white bg-[#131318] border-0">❯</a>
+            </div>
           </div>
         </div>
+      </div>
 
-        <!-- banner_image_3 -->
-        <div id="slide3" class="carousel-item relative w-full">
-          <img src="./banner/banner3.jpg" class="w-full rounded-lg lg:rounded-2xl" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn btn-circle text-white bg-[#131318] border-0">❮</a>
-            <a href="#slide1" class="btn btn-circle text-white bg-[#131318] border-0">❯</a>
-          </div>
-        </div>
+      <div class="bg-[#131318] max-w-[502px] rounded-2xl p-4 lg:p-8 lg:absolute lg:right-8 lg:bottom-8 mt-5">
+        <h3 class="text-white text-2xl font font-extrabold">Meet all the heroes from the field</h3>
+        <p class="text-[#FFFFFF99] font-medium leading-6 mt-4">Step into the spotlight, where extraordinary journey
+          and indomitable spirit have rightfully earned the title of a hero.</p>
       </div>
     </div>
     <!-- header_banner_end -->
@@ -134,26 +138,28 @@
       <div class="mt-16 grid gap-8 grid-cols-1 lg:grid-cols-4">
         <!-- card_1 -->
         <div>
-          <div class="radial-progress text-primary text-[#FF4240]" style="--value:87;" role="progressbar"><span
-              class="text-[#131318] text-2xl font-extrabold">87%</span>
+          <div class="radial-progress text-primary text-[#FF4240] rotate-[140deg]" style="--value:87;"
+            role="progressbar"><span class="text-[#131318] text-2xl font-extrabold -rotate-[140deg]">87%</span>
           </div>
           <h3 class="text-[#131318] text-xl font-semibold mt-4">Prayer Facility</h3>
-          <p class="text-[#13131899] mt-3 leading-6 max-w-[250px] mx-auto">A prayer facility is a space designed for individuals to engage in practices and prayer.</p>
+          <p class="text-[#13131899] mt-3 leading-6 max-w-[250px] mx-auto">A prayer facility is a space designed for
+            individuals to engage in practices and prayer.</p>
         </div>
 
         <!-- card_2 -->
         <div>
-          <div class="radial-progress text-primary text-[#49D293]" style="--value:95;" role="progressbar"><span
-              class="text-[#131318] text-2xl font-extrabold">95%</span>
+          <div class="radial-progress text-primary text-[#49D293] rotate-[120deg]" style="--value:95;"
+            role="progressbar"><span class="text-[#131318] text-2xl font-extrabold -rotate-[120deg]">95%</span>
           </div>
           <h3 class="text-[#131318] text-xl font-semibold mt-4">Experienced Coach</h3>
-          <p class="text-[#13131899] mt-3 leading-6 max-w-[250px] mx-auto">An experienced coach is a seasoned professional in the realm of mentorship.</p>
+          <p class="text-[#13131899] mt-3 leading-6 max-w-[250px] mx-auto">An experienced coach is a seasoned
+            professional in the realm of mentorship.</p>
         </div>
 
         <!-- card_3 -->
         <div>
-          <div class="radial-progress text-primary text-[#FFB546]" style="--value:90;" role="progressbar"><span
-              class="text-[#131318] text-2xl font-extrabold">90%</span>
+          <div class="radial-progress text-primary text-[#FFB546] rotate-[140deg]" style="--value:90;"
+            role="progressbar"><span class="text-[#131318] text-2xl font-extrabold -rotate-[140deg]">90%</span>
           </div>
           <h3 class="text-[#131318] text-xl font-semibold mt-4">Senior Player</h3>
           <p class="text-[#13131899] mt-3 leading-6 max-w-[250px] mx-auto">
@@ -162,11 +168,12 @@
 
         <!-- card_4 -->
         <div>
-          <div class="radial-progress text-primary text-[#4C8DF1]" style="--value:80;" role="progressbar"><span
-              class="text-[#131318] text-2xl font-extrabold">80%</span>
+          <div class="radial-progress text-primary text-[#4C8DF1] rotate-[150deg]" style="--value:80;"
+            role="progressbar"><span class="text-[#131318] text-2xl font-extrabold -rotate-[150deg]">80%</span>
           </div>
           <h3 class="text-[#131318] text-xl font-semibold mt-4">Training Ground</h3>
-          <p class="text-[#13131899] max-w-[250px] mx-auto mt-3 leading-6">A training ground is a dedicated facility designed for athletes and teams to hone their skills.</p>
+          <p class="text-[#13131899] max-w-[250px] mx-auto mt-3 leading-6">A training ground is a dedicated facility
+            designed for athletes and teams to hone their skills.</p>
         </div>
       </div>
     </div>
@@ -175,7 +182,8 @@
     <!-- program_sections_start -->
     <div class="mt-24 text-center">
       <h3 class="text-[#131318] text-3xl lg:text-4xl font-extrabold">Program Sections</h3>
-      <p class="max-w-[607px] mx-auto mt-5">Program sections refer to distinct and organized segments within a larger program or event,each serving a specific purpose or addressing a particular aspect.</p>
+      <p class="max-w-[607px] mx-auto mt-5">Program sections refer to distinct and organized segments within a larger
+        program or event,each serving a specific purpose or addressing a particular aspect.</p>
 
       <div class="mt-16 grid gap-6 grid-cols-1 lg:grid-cols-2">
         <!-- card_1 -->
@@ -187,7 +195,8 @@
           </div>
           <div class="text-start absolute left-1 bottom-1 md:left-4 md:bottom-4 lg:left-8 lg:bottom-8 z-30">
             <h2 class="text-white text-3xl font-extrabold">Junior Program</h2>
-            <p class="text-white font-medium leading-6 max-w-[495px] mt-2 lg:mt-5">A junior program typically refers to a specialized initiative or curriculum designed for young participants</p>
+            <p class="text-white font-medium leading-6 max-w-[495px] mt-2 lg:mt-5">A junior program typically refers to
+              a specialized initiative or curriculum designed for young participants</p>
             <button class="btn text-white font-bold text-xl bg-[#FF4240] border-0 m-2 lg:mt-6">Register Now!</button>
           </div>
         </div>
@@ -201,7 +210,8 @@
           </div>
           <div class="text-start absolute left-1 bottom-1 md:left-4 md:bottom-4 lg:left-8 lg:bottom-8 z-30">
             <h2 class="text-white text-3xl font-extrabold">Teenager Program</h2>
-            <p class="text-white font-medium leading-6 max-w-[495px] mt-1 lg:mt-5">A teenager program is a targeted initiative or set of activities designed to address the unique needs and interests of adolescents</p>
+            <p class="text-white font-medium leading-6 max-w-[495px] mt-1 lg:mt-5">A teenager program is a targeted
+              initiative or set of activities designed to address the unique needs and interests of adolescents</p>
             <button class="btn text-white font-bold text-xl bg-[#FF4240] border-0 m-1 lg:mt-6">Register Now!</button>
           </div>
         </div>
@@ -209,13 +219,14 @@
         <!-- card_3 -->
         <div class="relative lg:col-span-2">
           <div>
-            <img src="./images/4.png" alt="" class="w-full relative -z-0">
+            <img src="./images/4.png" alt="" class="w-full lg:relative -z-0">
 
             <div class="bg-[#13131880] rounded-2xl absolute top-0 left-0 right-0 bottom-0 z-20"></div>
           </div>
           <div class="text-start absolute left-1 bottom-1 md:left-4 md:bottom-4 lg:left-8 lg:bottom-8 z-30">
             <h2 class="text-white text-3xl font-extrabold">Professional Program</h2>
-            <p class="text-white font-medium leading-6 max-w-[495px] mt-1 lg:mt-5">A professional program is a structured and specialized initiative designed to enhance the knowledge, skills, and expertise.</p>
+            <p class="text-white font-medium leading-6 max-w-[495px] mt-1 lg:mt-5">A professional program is a
+              structured and specialized initiative designed to enhance the knowledge, skills, and expertise.</p>
             <button class="btn text-white font-bold text-xl bg-[#FF4240] border-0 
             m-1 lg:mt-6">Register Now!</button>
           </div>
@@ -227,54 +238,59 @@
     <!-- our_new_products_start -->
     <div class="text-center mt-24">
       <h1 class="text-[#131318] text-3xl lg:text-4xl font-extrabold">Our New Products</h1>
-      <p class="text-[#13131899] font-medium leading-6 max-w-[600px] mx-auto mt-5">We're thrilled to unveil our latest additions to the product lineup, each crafted with precision and innovation to elevate</p>
+      <p class="text-[#13131899] font-medium leading-6 max-w-[600px] mx-auto mt-5">We're thrilled to unveil our latest
+        additions to the product lineup, each crafted with precision and innovation to elevate</p>
       <div class="mt-12 grid gap-6 grid-cols-1 lg:grid-cols-2">
         <!-- card_1 -->
         <div class="flex flex-col lg:flex-row gap-4 text-start border border-[#1313181A] rounded-xl p-6">
           <div>
             <img src="./images/5.png" alt="" class="w-full object-contain">
           </div>
-  
+
           <div>
             <div class="flex gap-4">
               <p class="text-[#13131880]"><i class="fa-solid fa-star mr-2" style="color: #F99808;"></i>5.0</p>
               <p class="text-[#13131880]"><i class="fa-regular fa-eye mr-2" style="color: #13131880;"></i>20</p>
               <p class="text-[#13131880]"><i class="fa-regular fa-heart mr-2" style="color: #13131880;"></i>200</p>
             </div>
-  
+
             <h2 class="text-[#131318] text-xl font-extrabold mt-2">World Cup Flags Football</h2>
-            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the diverse array of nations.</p>
-  
+            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the
+              diverse array of nations.</p>
+
             <div class="flex flex-col lg:flex-row mt-3 lg:mt-2">
               <h3 class="text-[#FF4240] text-lg font-extrabold mr-5">Price - $22.00</h3>
-              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2" style="color: #89898B;"></i>Delivery Fee : Free</p>
+              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2"
+                  style="color: #89898B;"></i>Delivery Fee : Free</p>
             </div>
           </div>
         </div>
 
 
-       <!-- card_2 -->
-       <div class="flex flex-col lg:flex-row gap-4 text-start border border-[#1313181A] rounded-xl p-6">
-        <div>
-          <img src="./images/6.png" alt="" class="w-full object-contain">
-        </div>
-
-        <div>
-          <div class="flex gap-4">
-            <p class="text-[#13131880]"><i class="fa-solid fa-star mr-2" style="color: #F99808;"></i>5.0</p>
-            <p class="text-[#13131880]"><i class="fa-regular fa-eye mr-2" style="color: #13131880;"></i>20</p>
-            <p class="text-[#13131880]"><i class="fa-regular fa-heart mr-2" style="color: #13131880;"></i>200</p>
+        <!-- card_2 -->
+        <div class="flex flex-col lg:flex-row gap-4 text-start border border-[#1313181A] rounded-xl p-6">
+          <div>
+            <img src="./images/6.png" alt="" class="w-full object-contain">
           </div>
 
-          <h2 class="text-[#131318] text-xl font-extrabold mt-2">World Cup Flags Football</h2>
-          <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the diverse array of nations.</p>
+          <div>
+            <div class="flex gap-4">
+              <p class="text-[#13131880]"><i class="fa-solid fa-star mr-2" style="color: #F99808;"></i>5.0</p>
+              <p class="text-[#13131880]"><i class="fa-regular fa-eye mr-2" style="color: #13131880;"></i>20</p>
+              <p class="text-[#13131880]"><i class="fa-regular fa-heart mr-2" style="color: #13131880;"></i>200</p>
+            </div>
 
-          <div class="flex flex-col lg:flex-row mt-3 lg:mt-2">
-            <h3 class="text-[#FF4240] text-lg font-extrabold mr-5">Price - $22.00</h3>
-            <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2" style="color: #89898B;"></i>Delivery Fee : Free</p>
+            <h2 class="text-[#131318] text-xl font-extrabold mt-2">World Cup Flags Football</h2>
+            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the
+              diverse array of nations.</p>
+
+            <div class="flex flex-col lg:flex-row mt-3 lg:mt-2">
+              <h3 class="text-[#FF4240] text-lg font-extrabold mr-5">Price - $22.00</h3>
+              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2"
+                  style="color: #89898B;"></i>Delivery Fee : Free</p>
+            </div>
           </div>
         </div>
-      </div>
 
 
         <!-- card_3 -->
@@ -282,20 +298,22 @@
           <div>
             <img src="./images/7.png" alt="" class="w-full object-contain">
           </div>
-  
+
           <div>
             <div class="flex gap-4">
               <p class="text-[#13131880]"><i class="fa-solid fa-star mr-2" style="color: #F99808;"></i>5.0</p>
               <p class="text-[#13131880]"><i class="fa-regular fa-eye mr-2" style="color: #13131880;"></i>20</p>
               <p class="text-[#13131880]"><i class="fa-regular fa-heart mr-2" style="color: #13131880;"></i>200</p>
             </div>
-  
+
             <h2 class="text-[#131318] text-xl font-extrabold mt-2">World Cup Flags Football</h2>
-            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the diverse array of nations.</p>
-  
+            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the
+              diverse array of nations.</p>
+
             <div class="flex flex-col lg:flex-row mt-3 lg:mt-2">
               <h3 class="text-[#FF4240] text-lg font-extrabold mr-5">Price - $22.00</h3>
-              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2" style="color: #89898B;"></i>Delivery Fee : Free</p>
+              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2"
+                  style="color: #89898B;"></i>Delivery Fee : Free</p>
             </div>
           </div>
         </div>
@@ -306,20 +324,22 @@
           <div>
             <img src="./images/8.png" alt="" class="w-full object-contain">
           </div>
-  
+
           <div>
             <div class="flex gap-4">
               <p class="text-[#13131880]"><i class="fa-solid fa-star mr-2" style="color: #F99808;"></i>5.0</p>
               <p class="text-[#13131880]"><i class="fa-regular fa-eye mr-2" style="color: #13131880;"></i>20</p>
               <p class="text-[#13131880]"><i class="fa-regular fa-heart mr-2" style="color: #13131880;"></i>200</p>
             </div>
-  
+
             <h2 class="text-[#131318] text-xl font-extrabold mt-2">World Cup Flags Football</h2>
-            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the diverse array of nations.</p>
-  
+            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the
+              diverse array of nations.</p>
+
             <div class="flex flex-col lg:flex-row mt-3 lg:mt-2">
               <h3 class="text-[#FF4240] text-lg font-extrabold mr-5">Price - $22.00</h3>
-              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2" style="color: #89898B;"></i>Delivery Fee : Free</p>
+              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2"
+                  style="color: #89898B;"></i>Delivery Fee : Free</p>
             </div>
           </div>
         </div>
@@ -329,20 +349,22 @@
           <div>
             <img src="./images/9.png" alt="" class="w-full object-contain">
           </div>
-  
+
           <div>
             <div class="flex gap-4">
               <p class="text-[#13131880]"><i class="fa-solid fa-star mr-2" style="color: #F99808;"></i>5.0</p>
               <p class="text-[#13131880]"><i class="fa-regular fa-eye mr-2" style="color: #13131880;"></i>20</p>
               <p class="text-[#13131880]"><i class="fa-regular fa-heart mr-2" style="color: #13131880;"></i>200</p>
             </div>
-  
+
             <h2 class="text-[#131318] text-xl font-extrabold mt-2">World Cup Flags Football</h2>
-            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the diverse array of nations.</p>
-  
+            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the
+              diverse array of nations.</p>
+
             <div class="flex flex-col lg:flex-row mt-3 lg:mt-2">
               <h3 class="text-[#FF4240] text-lg font-extrabold mr-5">Price - $22.00</h3>
-              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2" style="color: #89898B;"></i>Delivery Fee : Free</p>
+              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2"
+                  style="color: #89898B;"></i>Delivery Fee : Free</p>
             </div>
           </div>
         </div>
@@ -352,26 +374,216 @@
           <div>
             <img src="./images/10.png" alt="" class="w-full object-contain">
           </div>
-  
+
           <div>
             <div class="flex gap-4">
               <p class="text-[#13131880]"><i class="fa-solid fa-star mr-2" style="color: #F99808;"></i>5.0</p>
               <p class="text-[#13131880]"><i class="fa-regular fa-eye mr-2" style="color: #13131880;"></i>20</p>
               <p class="text-[#13131880]"><i class="fa-regular fa-heart mr-2" style="color: #13131880;"></i>200</p>
             </div>
-  
+
             <h2 class="text-[#131318] text-xl font-extrabold mt-2">World Cup Flags Football</h2>
-            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the diverse array of nations.</p>
-  
+            <p class="mt-2 lg:mt-1 text-[#13131899] font-medium leading-6">The World Cup Flags in football represent the
+              diverse array of nations.</p>
+
             <div class="flex flex-col lg:flex-row mt-3 lg:mt-2">
               <h3 class="text-[#FF4240] text-lg font-extrabold mr-5">Price - $22.00</h3>
-              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2" style="color: #89898B;"></i>Delivery Fee : Free</p>
+              <p class="text-[#13131880] font-medium mt-2 lg:mt-0"><i class="fa-solid fa-cart-shopping mr-2"
+                  style="color: #89898B;"></i>Delivery Fee : Free</p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- our_new_products_end -->
+
+    <!-- clients_question_start -->
+    <div class="text-center mt-24">
+      <h2 class="text-[#131318] text-3xl lg:text-4xl font-extrabold">Clients Question</h2>
+      <p class="text-[#13131899] font-medium mx-auto mt-5 max-w-[600px] ">Of course! Feel free to share the client's
+        question, and I'll provide a concise note or response for you.</p>
+
+      <div class="flex gap-5 flex-col lg:flex-row border text-start p-8 border-[#1313181A] rounded-2xl mt-10">
+        <div class="w-full">
+          <img src="./images/11.png" alt="">
+        </div>
+
+        <div class="">
+          <!-- question_1 -->
+          <div class="collapse collapse-plus border-b border-[#1313181A]">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium">
+              <h3 class="text-[#131318] text-xl font-bold">Our Equipment</h3>
+            </div>
+            <div class="collapse-content">
+              <p class="text-[#13131899] leading-6">we take pride in offering top-notch equipment in our shop. Our
+                commitment to quality ensures that every piece is meticulously selected to enhance your experience.</p>
+            </div>
+          </div>
+
+          <!-- question_2 -->
+          <div class="collapse collapse-plus border-b border-[#1313181A] mt-3">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              <h3 class="text-[#131318] text-xl font-bold">Hockey Training</h3>
+            </div>
+            <div class="collapse-content">
+              <p class="text-[#13131899] leading-6">Our expert trainers bring passion and expertise to the ice, creating
+                a dynamic environment that fuels improvement.</p>
+            </div>
+          </div>
+
+          <!-- question_3 -->
+          <div class="collapse collapse-plus border-b border-[#1313181A] mt-3">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              <h3 class="text-[#131318] text-xl font-bold">Private Lessons</h3>
+            </div>
+            <div class="collapse-content">
+              <p class="text-[#13131899] leading-6">Our experienced instructors tailor each session to your unique
+                goals, ensuring rapid progress and mastery.</p>
+            </div>
+          </div>
+
+          <!-- question_4 -->
+          <div class="collapse collapse-plus border-b border-[#1313181A] mt-3">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              <h3 class="text-[#131318] text-xl font-bold">Ski Touring</h3>
+            </div>
+            <div class="collapse-content">
+              <p class="text-[#13131899] leading-6">Embark on a thrilling adventure with our Ski Touring experience.
+                Traverse breathtaking landscapes, conquer challenging terrains, and immerse yourself in the beauty of
+                untouched snow.</p>
+            </div>
+          </div>
+
+          <!-- question_5 -->
+          <div class="collapse collapse-plus border-b border-[#1313181A] mt-3">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              <h3 class="text-[#131318] text-xl font-bold">Booking</h3>
+            </div>
+            <div class="collapse-content">
+              <p class="text-[#13131899] leading-6">Secure your spot for an unforgettable experience! Booking with us is
+                quick and easy. Choose your preferred date, select from our range of activities, and get ready for an
+                adventure like no other.</p>
+            </div>
+          </div>
+
+          <!-- question_6 -->
+          <div class="collapse collapse-plus mt-3">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              <h3 class="text-[#131318] text-xl font-bold">Pricings</h3>
+            </div>
+            <div class="collapse-content">
+              <p class="text-[#13131899] leading-6">Explore our diverse offerings with transparent and competitive
+                pricings. At Club, we believe in providing value for every adventure. From private lessons to group
+                experiences, discover a range of options tailored to your preferences.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- clients_question_end -->
+
+    <!-- get_in_touch_start -->
+    <div class="text-center mt-24">
+      <h2 class="text-[#131318] text-3xl lg:text-4xl font-extrabold">Get In Touch</h2>
+      <p class="text-[#13131899] font-medium leading-6 mt-5 max-w-[600px] mx-auto">You're in for something special! 🚀
+        Our team is here to turn your experience into pure magic.</p>
+
+      <div class="mt-16 flex gap-10 flex-col lg:flex-row">
+        <div class="border border-[#1313181A] rounded-2xl p-6 lg:p-12">
+          <!-- card_1 -->
+          <div class="text-start bg-[#BCED6D1A] p-8 rounded-2xl ">
+            <img src="./logo/Group 1171275317.png" alt="">
+            <p class="text-[#13131366] leading-8 mt-5">Phone Number :</p>
+            <p class="text-[#131318] text-lg font-extrabold leading-8 mt-2">(+62) 123-321-543</p>
+          </div>
+  
+          <!-- card_2 -->
+          <div class="text-start bg-[#FDDD5F1A] p-8 rounded-2xl mt-6">
+            <img src="./logo/Group 1171275318.png" alt="">
+            <p class="text-[#13131366] leading-8 mt-5">Email :</p>
+            <p class="text-[#131318] text-lg font-extrabold leading-8 mt-2">hockeys@support.com</p>
+          </div>
+          <!-- card_3 -->
+          <div class="text-start bg-[#629CF31A] p-8 rounded-2xl mt-6">
+            <img src="./logo/Group 1171275321.png" alt="">
+            <p class="text-[#13131366] leading-8 mt-5">Location :</p>
+            <p class="text-[#131318] text-lg font-extrabold leading-8 mt-2">152/1 Mohakhali Wireless Gate</p>
+          </div>
+        </div>
+
+        <div class="grid gap-8 grid-cols-1 lg:grid-cols-2 flex-1">
+          <!-- input_1 -->
+          <div class="text-start">
+            <h3 class="text-[#131318] text-xl font-bold">Your Name</h3>
+            <input type="text" placeholder="Enter your full name" class="rounded-xl bg-[#13131808] w-[375px] h-[64px] p-5 mt-4">
+          </div>
+
+          <!-- input_2 -->
+          <div class="text-start">
+            <h3 class="text-[#131318] text-xl font-bold">Your Email</h3>
+            <input type="email" placeholder="Enter your email" class="rounded-xl bg-[#13131808] w-[375px] h-[64px] p-5 mt-4">
+          </div>
+
+          <!-- input_3 -->
+          <div class="text-start">
+            <h3 class="text-[#131318] text-xl font-bold">Subject</h3>
+            <input type="text" placeholder="Enter your subject" class="rounded-xl bg-[#13131808] w-[375px] h-[64px] p-5 mt-4">
+          </div>
+
+          <!-- input_4 -->
+          <div class="text-start">
+            <h3 class="text-[#131318] text-xl font-bold">Phone Number</h3>
+            <input type="number" placeholder="Enter your phone number" class="rounded-xl bg-[#13131808] w-[375px] h-[64px] p-5 mt-4">
+          </div>
+
+          <!-- input_5 -->
+          <!-- <div class="text-start  lg:col-span-2">
+            <h3 class="text-[#131318] text-xl font-bold">Message</h3>
+            <input type="text" placeholder="Enter your phone number" class="rounded-xl bg-[#13131808] lg:w-[672px] lg:h-[370px] p-5 mt-4 text-start">
+          </div> -->
+
+          <div class="text-start hidden lg:block lg:col-span-2">
+            <h3 class="text-[#131318] text-xl font-bold">Message</h3>
+            <textarea name="" id="" cols="85" rows="12" placeholder="Write your message" class="rounded-xl bg-[#13131808] p-5 mt-4 lg:col-span-2"></textarea>
+          </div>
+
+          <div class="text-start block lg:hidden lg:col-span-2">
+            <h3 class="text-[#131318] text-xl font-bold">Message</h3>
+            <textarea name="" id="" cols="35" rows="8" placeholder="Write your message" class="rounded-xl bg-[#13131808] p-5 mt-4 lg:col-span-2"></textarea>
+          </div>
+
+          <button class="btn bg-[#FF4240] text-white text-xl lg:col-span-2 font-bold mt-4">Send Message</button>
+        </div>
+        
+      </div>
+    </div>
+    <!-- get_in_touch_end -->
+
+    <!-- social_media_start -->
+    <div class="mt-12 text-center p-9 bg-[#13131808] rounded-2xl">
+      <h2 class="text-2xl text-[#131318] font-extrabold">Social Media</h2>
+      <div class="flex gap-3 items-center justify-center mt-5">
+        <div>
+          <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-facebook" style="color: #000000;"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-square-instagram" style="color: #000000;"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-github" style="color: #000000;"></i>
+        </div>
+      </div>
+    </div>
+    <!-- social_media_end -->
   </main>
   <!-- main_end -->
 
