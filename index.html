@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hockey's</title>
-  <link rel="shortcut icon" href="./logo/hockeylogo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/logo/hockeylogo.png" type="image/x-icon">
 
   <!-- google_font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +43,7 @@
 
 <body class="font-manrope">
   <!-- header_start -->
-  <header class="container mx-auto mt-10">
+  <header class="max-w-7xl mx-auto mt-5 md:mt-10">
     <!-- nav_start -->
     <nav>
       <div class="navbar bg-base-100">
@@ -84,22 +84,13 @@
     <!-- nav_end -->
 
     <!-- header_banner_start -->
-    <div class="mt-12 p-4 lg:relative lg:p-0">
+    <div class="mt-6 md:mt-12 p-4 lg:relative lg:p-0">
       <div>
         <div class="carousel lg:w-full">
-          <!-- banner_image_1 -->
-          <!-- <div id="slide1" class="carousel-item  lg:relative lg:w-full object object-center">
-            <img src="./banner/banner1.png" class="  lg:w-full" />
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5       right-5 bottom-1/2 lg:top-1/2">
-              <a href="#slide3" class="btn btn-circle  text-white bg-[#131318] border-0">❮</a>
-              <a href="#slide2" class="btn btn-circle text-white bg-[#131318] border-0">❯</a>
-            </div>
-
-          </div> -->
 
           <!-- banner_image_1 -->
           <div id="slide1" class="carousel-item relative w-full">
-            <img src="./banner/banner1.png" class="w-full rounded-lg lg:rounded-2xl" />
+            <img src="./assets/banner/banner1.png" class="w-full rounded-lg lg:rounded-2xl" />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide3" class="btn btn-circle text-white bg-[#131318] border-0">❮</a>
               <a href="#slide2" class="btn btn-circle  text-white bg-[#131318] border-0">❯</a>
@@ -108,7 +99,7 @@
 
           <!-- banner_image_2 -->
           <div id="slide2" class="carousel-item relative w-full">
-            <img src="./banner/banner2.jpg" class="w-full rounded-lg lg:rounded-2xl" />
+            <img src="./assets/banner/banner2.jpg" class="w-full rounded-lg lg:rounded-2xl" />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide1" class="btn btn-circle text-white bg-[#131318] border-0">❮</a>
               <a href="#slide3" class="btn btn-circle  text-white bg-[#131318] border-0">❯</a>
@@ -117,7 +108,7 @@
 
           <!-- banner_image_3 -->
           <div id="slide3" class="carousel-item relative w-full">
-            <img src="./banner/banner3.jpg" class=" w-full rounded-lg lg:rounded-2xl" />
+            <img src="./assets/banner/banner3.jpg" class=" w-full rounded-lg lg:rounded-2xl" />
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide2" class="btn btn-circle text-white bg-[#131318] border-0">❮</a>
               <a href="#slide1" class="btn btn-circle text-white bg-[#131318] border-0">❯</a>
@@ -126,7 +117,8 @@
         </div>
       </div>
 
-      <div class="bg-[#131318] max-w-[502px] rounded-2xl p-2 lg:p-8 lg:absolute lg:right-8 lg:bottom-8 mt-5">
+      <div
+        class="bg-[#131318] w-full md:w-full lg:max-w-[502px] rounded-2xl p-5 md:p-8 lg:absolute lg:right-8 lg:bottom-8 mt-5">
         <h3 class="text-white text-2xl font font-extrabold">Meet all the heroes from the field</h3>
         <p class="text-[#FFFFFF99] font-medium leading-6 mt-4">Step into the spotlight, where extraordinary journey
           and indomitable spirit have rightfully earned the title of a hero.</p>
@@ -137,14 +129,14 @@
   <!-- header_end -->
 
   <!-- main_start -->
-  <main class="container mx-auto mt-24 p-4 lg:p-0">
+  <main class="max-w-7xl mx-auto mt-8 md:mt-16 p-4 lg:p-0">
     <!-- professional_hockeys_club_start -->
     <div class="text-center">
       <h2 class="text-[#131318] text-3xl lg:text-4xl font-extrabold">Professional Hockeys Club</h2>
       <p class="mt-5 text-[#13131899] font-medium leading-6 max-w-[600px] mx-auto">A professional hockey club stands as
         a beacon of excitement and excellence in the world of sports.Founded with a passion for the game.</p>
 
-      <div class="mt-16 grid gap-8 grid-cols-1 lg:grid-cols-4">
+      <div class="mt-16 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <!-- card_1 -->
         <div>
           <div class="radial-progress text-primary text-[#FF4240] rotate-[140deg]" style="--value:87;"
@@ -198,13 +190,15 @@
         <!-- card_1 -->
         <div class="relative flex-1">
           <div>
-            <img src="./images/2.png" alt="" class="rounded-2xl h-64 lg:h-full w-[100%] lg:w-full relative z-0">
+            <img src="./assets/images/2.png" alt=""
+              class="rounded-2xl h-64 md:h-full lg:h-full w-[100%] lg:w-full relative z-0">
 
             <div class="bg-[#13131880] rounded-2xl absolute top-0 left-0 right-0 bottom-0 z-20"></div>
           </div>
           <div class="text-start absolute left-3 bottom-3 md:left-4 md:bottom-4 lg:left-8 lg:bottom-8 z-30">
             <h2 class="text-white text-3xl font-extrabold">Junior Program</h2>
-            <p class="text-white font-medium leading-7 max-w-[495px] mt-3 mb-1 lg:mt-5">A junior program typically refers to
+            <p class="text-white font-medium leading-7 max-w-[495px] mt-3 mb-1 lg:mt-5">A junior program typically
+              refers to
               a specialized initiative or curriculum designed for young participants</p>
             <button class="btn text-white font-bold text-xl bg-[#FF4240] border-0 m-2 lg:mt-6">Register Now!</button>
           </div>
@@ -213,7 +207,8 @@
         <!-- card_2 -->
         <div class="relative flex-1">
           <div>
-            <img src="./images/3.png" alt="" class="rounded-2xl h-64 lg:h-full w-[100%] lg:w-full relative z-0">
+            <img src="./assets/images/3.png" alt=""
+              class="rounded-2xl h-64 lg:h-full w-[100%] lg:w-full relative z-0 md:h-full">
 
             <div class="bg-[#13131880] rounded-2xl absolute top-0 left-0 right-0 bottom-0 z-20"></div>
           </div>
@@ -228,7 +223,8 @@
         <!-- card_3 -->
         <div class="relative lg:col-span-2">
           <div class="bg-cover object-center">
-            <img src="./images/4.png" alt="" class="rounded-2xl h-64 lg:h-full w-[100%] lg:w-full lg:relative -z-0">
+            <img src="./assets/images/4.png" alt=""
+              class="rounded-2xl h-64 lg:h-full w-[100%] lg:w-full lg:relative -z-0 md:h-full">
 
             <div class="bg-[#13131880] rounded-2xl absolute top-0 left-0 right-0 bottom-0 z-20"></div>
           </div>
@@ -249,11 +245,11 @@
       <h1 class="text-[#131318] text-3xl lg:text-4xl font-extrabold">Our New Products</h1>
       <p class="text-[#13131899] font-medium leading-6 max-w-[600px] mx-auto mt-5">We're thrilled to unveil our latest
         additions to the product lineup, each crafted with precision and innovation to elevate</p>
-      <div class="mt-12 grid gap-6 grid-cols-1 lg:grid-cols-2">
+      <div class="mt-12 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
         <!-- card_1 -->
         <div class="flex flex-col lg:flex-row gap-4 text-start border border-[#1313181A] rounded-xl p-6">
           <div>
-            <img src="./images/5.png" alt="" class="w-full object-contain">
+            <img src="./assets/images/5.png" alt="" class="w-full object-contain">
           </div>
 
           <div>
@@ -279,7 +275,7 @@
         <!-- card_2 -->
         <div class="flex flex-col lg:flex-row gap-4 text-start border border-[#1313181A] rounded-xl p-6">
           <div>
-            <img src="./images/6.png" alt="" class="w-full object-contain">
+            <img src="./assets/images/6.png" alt="" class="w-full object-contain">
           </div>
 
           <div>
@@ -305,7 +301,7 @@
         <!-- card_3 -->
         <div class="flex flex-col lg:flex-row gap-4 text-start border border-[#1313181A] rounded-xl p-6">
           <div>
-            <img src="./images/7.png" alt="" class="w-full object-contain">
+            <img src="./assets/images/7.png" alt="" class="w-full object-contain">
           </div>
 
           <div>
@@ -331,7 +327,7 @@
         <!-- card_4 -->
         <div class="flex flex-col lg:flex-row gap-4 text-start border border-[#1313181A] rounded-xl p-6">
           <div>
-            <img src="./images/8.png" alt="" class="w-full object-contain">
+            <img src="./assets/images/8.png" alt="" class="w-full object-contain">
           </div>
 
           <div>
@@ -356,7 +352,7 @@
         <!-- card_6 -->
         <div class="flex flex-col lg:flex-row gap-4 text-start border border-[#1313181A] rounded-xl p-6">
           <div>
-            <img src="./images/9.png" alt="" class="w-full object-contain">
+            <img src="./assets/images/9.png" alt="" class="w-full object-contain">
           </div>
 
           <div>
@@ -381,7 +377,7 @@
         <!-- card_6 -->
         <div class="flex flex-col lg:flex-row gap-4 text-start border border-[#1313181A] rounded-xl p-6">
           <div>
-            <img src="./images/10.png" alt="" class="w-full object-contain">
+            <img src="./assets/images/10.png" alt="" class="w-full object-contain">
           </div>
 
           <div>
@@ -413,8 +409,8 @@
         question, and I'll provide a concise note or response for you.</p>
 
       <div class="flex gap-5 flex-col lg:flex-row border text-start p-8 border-[#1313181A] rounded-2xl mt-10">
-        <div class="w-full">
-          <img src="./images/11.png" alt="">
+        <div class="w-full flex mx-auto items-center justify-center">
+          <img src="./assets/images/11.png" alt="">
         </div>
 
         <div class="">
@@ -507,20 +503,20 @@
         <div class="border border-[#1313181A] rounded-2xl p-6 lg:p-12">
           <!-- card_1 -->
           <div class="text-start bg-[#BCED6D1A] p-8 rounded-2xl ">
-            <img src="./logo/Group 1171275317.png" alt="">
+            <img src="./assets/logo/Group 1171275317.png" alt="">
             <p class="text-[#13131366] leading-8 mt-5">Phone Number :</p>
             <p class="text-[#131318] text-lg font-extrabold leading-8 mt-2">(+62) 123-321-543</p>
           </div>
-  
+
           <!-- card_2 -->
           <div class="text-start bg-[#FDDD5F1A] p-8 rounded-2xl mt-6">
-            <img src="./logo/Group 1171275318.png" alt="">
+            <img src="./assets/logo/Group 1171275318.png" alt="">
             <p class="text-[#13131366] leading-8 mt-5">Email :</p>
             <p class="text-[#131318] text-lg font-extrabold leading-8 mt-2">hockeys@support.com</p>
           </div>
           <!-- card_3 -->
           <div class="text-start bg-[#629CF31A] p-8 rounded-2xl mt-6">
-            <img src="./logo/Group 1171275321.png" alt="">
+            <img src="./assets/logo/Group 1171275321.png" alt="">
             <p class="text-[#13131366] leading-8 mt-5">Location :</p>
             <p class="text-[#131318] text-lg font-extrabold leading-8 mt-2">152/1 Mohakhali Wireless Gate</p>
           </div>
@@ -530,46 +526,42 @@
           <!-- input_1 -->
           <div class="text-start">
             <h3 class="text-[#131318] text-xl font-bold">Your Name</h3>
-            <input type="text" placeholder="Enter your full name" class="rounded-xl bg-[#13131808] w-[375px] h-[64px] p-5 mt-4">
+            <input type="text" placeholder="Enter your full name"
+              class="rounded-xl bg-[#13131808] w-full h-[64px] p-5 mt-4">
           </div>
 
           <!-- input_2 -->
           <div class="text-start">
             <h3 class="text-[#131318] text-xl font-bold">Your Email</h3>
-            <input type="email" placeholder="Enter your email" class="rounded-xl bg-[#13131808] w-[375px] h-[64px] p-5 mt-4">
+            <input type="email" placeholder="Enter your email"
+              class="rounded-xl bg-[#13131808] w-full h-[64px] p-5 mt-4">
           </div>
 
           <!-- input_3 -->
           <div class="text-start">
             <h3 class="text-[#131318] text-xl font-bold">Subject</h3>
-            <input type="text" placeholder="Enter your subject" class="rounded-xl bg-[#13131808] w-[375px] h-[64px] p-5 mt-4">
+            <input type="text" placeholder="Enter your subject"
+              class="rounded-xl bg-[#13131808] w-full h-[64px] p-5 mt-4">
           </div>
 
           <!-- input_4 -->
           <div class="text-start">
             <h3 class="text-[#131318] text-xl font-bold">Phone Number</h3>
-            <input type="number" placeholder="Enter your phone number" class="rounded-xl bg-[#13131808] w-[375px] h-[64px] p-5 mt-4">
+            <input type="number" placeholder="Enter your phone number"
+              class="rounded-xl bg-[#13131808] w-full h-[64px] p-5 mt-4">
           </div>
 
-          <!-- input_5 -->
-          <!-- <div class="text-start  lg:col-span-2">
-            <h3 class="text-[#131318] text-xl font-bold">Message</h3>
-            <input type="text" placeholder="Enter your phone number" class="rounded-xl bg-[#13131808] lg:w-[672px] lg:h-[370px] p-5 mt-4 text-start">
-          </div> -->
 
-          <div class="text-start hidden lg:block lg:col-span-2">
+          <div class="block w-full text-start lg:col-span-2">
             <h3 class="text-[#131318] text-xl font-bold">Message</h3>
-            <textarea name="" id="" cols="85" rows="12" placeholder="Write your message" class="rounded-xl bg-[#13131808] p-5 mt-4 lg:col-span-2"></textarea>
+            <textarea placeholder="Write your message" class="w-full mt-4 p-5 rounded-xl bg-[#13131808] resize-none"
+              rows="8"></textarea>
           </div>
 
-          <div class="text-start block lg:hidden lg:col-span-2">
-            <h3 class="text-[#131318] text-xl font-bold">Message</h3>
-            <textarea name="" id="" cols="35" rows="8" placeholder="Write your message" class="rounded-xl bg-[#13131808] p-5 mt-4 lg:col-span-2"></textarea>
-          </div>
 
           <button class="btn bg-[#FF4240] text-white text-xl lg:col-span-2 font-bold mt-4">Send Message</button>
         </div>
-        
+
       </div>
     </div>
     <!-- get_in_touch_end -->
@@ -597,13 +589,16 @@
   <!-- main_end -->
 
   <!-- footer_start -->
-  <footer class="bg-[#131318] mt-24">
+  <footer class="bg-[#131318] mt-12 md:mt-24">
     <div class="grid gap-8 lg:gap-40 grid-cols-1 lg:grid-cols-3 py-6 lg:py-24 px-4 lg:px-32 text-center lg:text-start">
       <div>
-        <h2 class="text-white text-3xl font-extrabold">Get In Touch</h2>
-      <p class="text-[#FFFFFF99] font-medium leading-6 mt-4 max-w-[340px]">Dive into a world of possibilities with 'Get In Touch,' where exceptional service meets innovation at every turn.</p>
-      <p class="text-[#FFFFFF99] font-medium mt-4"><i class="fa-regular fa-envelope mr-4" style="color: #FF4240;"></i>hockeys@support.com</p>
-      <p class="text-[#FFFFFF99] font-medium mt-4"><i class="fa-solid fa-phone mr-4" style="color: #FF4240;"></i>(+62) 123-321-543</p>
+        <h2 class="text-white text-3xl font-extrabold text-center">Get In Touch</h2>
+        <p class="text-[#FFFFFF99] text-center font-medium leading-6 mt-4 max-w-[340px] mx-auto">Dive into a world of possibilities with
+          'Get In Touch,' where exceptional service meets innovation at every turn.</p>
+        <p class="text-[#FFFFFF99] font-medium mt-4 flex gap-2 items-center justify-center"><i class="fa-regular fa-envelope mr-4"
+            style="color: #FF4240;"></i>hockeys@support.com</p>
+        <p class="text-[#FFFFFF99] font-medium mt-4 flex gap-2 items-center justify-center"><i class="fa-solid fa-phone mr-4" style="color: #FF4240;"></i>(+62)
+          123-321-543</p>
       </div>
 
       <div class="flex gap-24 text-center mx-auto">
@@ -648,4 +643,3 @@
 </body>
 
 </html>
-
